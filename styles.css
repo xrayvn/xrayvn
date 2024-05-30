@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow: auto;
+}
+
+.container {
+    background-color: #ffffffcc;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    animation: fadeIn 2s ease;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff6f61;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #ff6f61;
+}
+
+.hidden {
+    display: none;
+}
+
+#messageImage, #ticketImage {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ticketImage {
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6f61;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e65e50;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#messageImage {
+    width: 500px; /* adjust as needed */
+    height: 300px; /* adjust as needed */
+    object-fit: cover; /* this will ensure the image covers the whole area without distortion */
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow: auto; /* changed from 'hidden' to 'auto' */
+}
+.hidden {
+    display: none;
+}
