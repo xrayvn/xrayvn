@@ -39,7 +39,7 @@ nextButton.addEventListener('click', () => {
 });
 
 yesButton.addEventListener('click', () => {
-    let count = 5;
+    let count = 3;
 
     countElement.textContent = count;
     countdown.classList.remove('hidden');
